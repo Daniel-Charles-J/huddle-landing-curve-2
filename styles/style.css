@@ -6,5 +6,21 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 10px;
-    width: 100%;
+    width: 90%;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.navbar .btn1{
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    color: #ff36c9;
+    border-radius: 20px;
+    font-weight: 900;
+    border-style:dashed;
+    border-color: #ff36c9;
 }
