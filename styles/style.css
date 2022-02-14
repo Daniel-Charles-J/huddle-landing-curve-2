@@ -8,6 +8,7 @@ body{
     margin: 10px;
     width: 90%;
 }
+/* navbar started */
 .navbar{
     display: flex;
     justify-content:space-between;
@@ -24,3 +25,38 @@ body{
     border-style:dashed;
     border-color: #ff36c9;
 }
+/* navbar completed */
+/* hero section started */
+.hero{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    margin:12rem 0rem 0rem 5rem;
+}
+.hero .content{
+    width:60%;
+    margin-left: 13rem;
+}
+.hero .content p{
+    margin-top: 2rem;
+    width:68%;
+    margin-left: 5rem;
+    line-height: 1.5rem;
+}
+.hero .content .btn2{
+    width:18rem;
+    height:3.5rem;
+    background-color: #eb2d9b;
+    color: white;
+    border-radius: 2rem 2rem;
+    border-style: none;
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+.hero .make-up{
+    width:70%;
+    height:600px;
+    margin-left: 8rem;
+    margin-top: 3.5rem;
+}
+/* hero section completed */
