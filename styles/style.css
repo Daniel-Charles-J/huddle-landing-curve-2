@@ -55,8 +55,18 @@ body{
 }
 .hero .make-up{
     width:70%;
-    height:600px;
+    height:500px;
     margin-left: 8rem;
     margin-top: 3.5rem;
 }
 /* hero section completed */
+.container-1{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-1 h5{
+    margin-top: 1rem;
+    color: #a2aeb0;
+    font-weight: 500;
+}
