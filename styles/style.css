@@ -70,3 +70,27 @@ body{
     color: #a2aeb0;
     font-weight: 500;
 }
+/* .box{
+    background: url("/Asserts/bg-section-top-desktop-1.svg") no-repeat;
+   
+    height: 1800px;
+    
+} */
+.box{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    margin-top: 9rem;
+}
+.box .contents{
+    width:45%;
+    margin-top: 4rem;
+}
+.box .grow-together{
+    width:300px;
+    height:300px;
+}
+.box .contents p{
+    margin-top: 1.5rem;
+    color: #a2aeb0;
+}
